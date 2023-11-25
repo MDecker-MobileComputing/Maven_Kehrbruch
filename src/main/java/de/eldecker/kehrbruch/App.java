@@ -17,15 +17,15 @@ public class App {
    */
   private static void berechneKehrbruch(BruchRecord bruch) {
 
-    BruchRecord ergebnisBruch = kehrwert(bruch);
-    if (ergebnisBruch != null) {
-
-      System.out.println("Kehrbruch von " + bruch + " ist: " + ergebnisBruch);
-
-    } else {
-
-      System.out.println("Kehrbruch von " + bruch + " kann nicht berechnet werden.");
-    }
+        BruchRecord ergebnisBruch = kehrwert(bruch);
+        if (ergebnisBruch != null) {
+    
+            System.out.println("Kehrbruch von " + bruch + " ist: " + ergebnisBruch);
+    
+        } else {
+    
+            System.out.println("Kehrbruch von " + bruch + " kann nicht berechnet werden.");
+        }
   }
 
   /**
@@ -34,12 +34,14 @@ public class App {
    * @param args Wird nicht ausgewertet
    */
   public static void main(String[] args) {
+      
+      System.out.println();
 
-    BruchRecord bruch1 = new BruchRecord(2,3);
-    berechneKehrbruch(bruch1);
+      BruchRecord bruch1 = new BruchRecord( 2, 3 );
+      berechneKehrbruch(bruch1);
 
-    BruchRecord bruch2 = new BruchRecord(0,5);
-    berechneKehrbruch(bruch2);
+      BruchRecord bruch2 = new BruchRecord( 0, 5 );
+      berechneKehrbruch(bruch2);
   }
 
 }
