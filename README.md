@@ -7,6 +7,10 @@ von Kehrbrüchen berechnet und bei Erfolg ausgibt. Das Programm ist im Rahmen ei
 
 <br>
 
+Klasse mit `main`-Methode (Einstiegsmethode): [`App.java` im Paket `de.eldecker.dhbw.kehrbruch`](src/main/java/de/eldecker/dhbw/kehrbruch/App.java)
+
+<br>
+
 ----
 
 ## License ##
