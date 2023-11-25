@@ -1,7 +1,8 @@
-package de.eldecker.kehrbruch;
+package de.eldecker.dhbw.kehrbruch;
 
-import static de.eldecker.kehrbruch.mathe.Bruchrechnen.kehrwert;
-import de.eldecker.kehrbruch.mathe.BruchRecord;
+import static de.eldecker.dhbw.kehrbruch.mathe.Bruchrechnen.kehrwert;
+
+import de.eldecker.dhbw.kehrbruch.mathe.BruchRecord;
 
 /**
  * Einsteigsklasse für Programmausführung.
@@ -42,6 +43,8 @@ public class App {
 
       BruchRecord bruch2 = new BruchRecord( 0, 5 );
       berechneKehrbruch(bruch2);
+      
+      System.out.println();
   }
 
 }

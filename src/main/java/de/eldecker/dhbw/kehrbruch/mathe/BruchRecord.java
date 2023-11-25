@@ -1,3 +1,3 @@
-package de.eldecker.kehrbruch.mathe;
+package de.eldecker.dhbw.kehrbruch.mathe;
 
 public record BruchRecord(int zaehler, int nenner) { }

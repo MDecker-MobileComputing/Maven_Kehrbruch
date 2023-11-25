@@ -1,2 +1,2 @@
 
-mvn exec:java -Dexec.mainClass=de.eldecker.kehrbruch.App
+mvn exec:java -Dexec.mainClass=de.eldecker.dhbw.kehrbruch.App
