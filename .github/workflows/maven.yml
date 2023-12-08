@@ -16,7 +16,7 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
-    - name: Maven-Installation checken
+    - name: Maven-Wrapper checken
       run: ./mvnw --version
     - name: FatJar-Datei mit Maven bauen
       run: ./mvnw --batch-mode clean package
