@@ -19,9 +19,9 @@ jobs:
     - name: Exe-Bit für Maven-Wrapper-Skript setzen
       run: chmod u+x mvnw
     - name: Maven-Installation checken
-      run: ./mvn --version
+      run: ./mvnw --version
     - name: FatJar-Datei mit Maven bauen
-      run: ./mvn --batch-mode clean package
+      run: ./mvnw --batch-mode clean package
     - name: FatJar-Datei veröffentlichen
       uses: actions/upload-artifact@v3
       with:
