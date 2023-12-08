@@ -19,9 +19,10 @@ jobs:
     - name: Maven-Wrapper checken
       run: ./mvnw --version
     - name: FatJar-Datei mit Maven bauen
-      run: ./mvnw --batch-mode clean package -DskipTests
+      run: ./mvnw --batch-mode clean package
     - name: FatJar-Datei veröffentlichen
       uses: actions/upload-artifact@v3
       with:
         name: Kehrbruch_FatJar
         path: target/*jar-with-dependencies*.jar
+
