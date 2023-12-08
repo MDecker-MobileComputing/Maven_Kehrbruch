@@ -11,7 +11,7 @@ jobs:
     - name: Git-Repo auschecken
       uses: actions/checkout@v4
     - name: Verzeichnis checken
-      run: dir
+      run: ls
     - name: JDK 21 einrichten
       uses: actions/setup-java@v3
       with:
