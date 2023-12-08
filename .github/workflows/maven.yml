@@ -6,12 +6,10 @@ on:
 
 jobs:
   job-fatjar:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Git-Repo auschecken
       uses: actions/checkout@v4
-    - name: Verzeichnis checken
-      run: ls
     - name: JDK 21 einrichten
       uses: actions/setup-java@v3
       with:
