@@ -17,7 +17,7 @@ jobs:
         distribution: 'temurin'
         cache: maven
     - name: Maven-Installation checken
-      run: ./mvn --version
+      run: chmod u+x mvn && ./mvn --version
     - name: FatJar-Datei mit Maven bauen
       run: ./mvn --batch-mode clean package
     - name: FatJar-Datei veröffentlichen
