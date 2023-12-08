@@ -16,8 +16,6 @@ jobs:
         java-version: '21'
         distribution: 'temurin'
         cache: maven
-    - name: Exe-Bit für Maven-Wrapper-Skript setzen
-      run: chmod u+x mvnw
     - name: Maven-Installation checken
       run: ./mvnw --version
     - name: FatJar-Datei mit Maven bauen
