@@ -25,4 +25,5 @@ jobs:
       with:
         name: Kehrbruch_FatJar
         path: target/*jar-with-dependencies*.jar
+        retention-days: 7
 
